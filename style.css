@@ -3,9 +3,35 @@ body {
 }
 h1 {
     font-size: 50px;
+    background-color: #2fa012;
+    text-align: center;
+    margin: 5px;
+    padding: 10px
 }
-.center {
-    max-width: max-content;
-    margin: auto;
+h2 {
+    font-size: 36px;
 }
-
+.container {
+    display:flex;
+}
+.column {
+    flex: 1;
+    padding: 10px;
+    margin: 5px;
+    background-color: #83EFEA;
+    text-align: center;
+}
+img {
+    height: 400px;
+    width: 550px;
+}
+a {
+    font-size: 18px;
+}
+.connectors {
+font-size: 50px;
+color: white;
+}
+li {
+    font-size: 28px
+}
